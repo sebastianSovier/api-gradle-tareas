@@ -1,0 +1,11 @@
+cl/binter/challenge/ScheduleApplication.java
+ cl.binter.challenge.ScheduleApplication
+cl/binter/challenge/domain/entities/Task.java
+ cl.binter.challenge.domain.entities.Task
+ cl.binter.challenge.domain.entities.Task$TaskBuilder
+cl/binter/challenge/usecase/ScheduleGenerator.java
+ cl.binter.challenge.usecase.ScheduleGenerator
+cl/binter/challenge/configuration/JacksonConfig.java
+ cl.binter.challenge.configuration.JacksonConfig
+cl/binter/challenge/infrastructure/controller/ScheduleController.java
+ cl.binter.challenge.infrastructure.controller.ScheduleController

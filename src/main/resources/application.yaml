@@ -1,0 +1,20 @@
+# ==================================================================================== #
+# APPLICATION CONFIGURATION
+# ==================================================================================== #
+server:
+  port: 8080
+  servlet:
+    context-path: /generator
+
+springdoc:
+  version: '@springdoc.version@'
+
+spring:
+  application:
+    name: ms-schedule
+    profiles: dev
+  profiles:
+    active: dev
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+    default-property-inclusion: non_null
